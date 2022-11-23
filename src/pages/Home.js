@@ -8,6 +8,7 @@ import sideImage from "../utilities/sideImage.png";
 import styles from "../styles/style.module.css";
 // import waterMark from "../utilities/waterMark.jpg";
 import { Link } from "react-router-dom";
+import Map from "../components/Map";
 
 const Home = () => {
   const data = {
@@ -136,6 +137,9 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div class=" m-2 pl-3 mt-4">
+        <Map />
       </div>
     </div>
   );
