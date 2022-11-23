@@ -1,5 +1,4 @@
 import React from "react";
-import { Image } from "antd";
 import image from "../utilities/image.jpg";
 import header from "../utilities/header.jpg";
 import logo from "../utilities/logo.jpg";
@@ -22,7 +21,7 @@ const Home = () => {
 
   return (
     <div className="container my-4">
-      <div className="m-4">
+      <div className="m-3">
         <div className="row">
           <div className="col">
             <img src={logo} className="img-fluid float-left " alt="logo" />
@@ -32,7 +31,7 @@ const Home = () => {
             <img src={header} alt="header" />
           </div>
           <div className="col-sm-3">
-            <Image src={image} />
+            <img src={image} alt="main" />
           </div>
         </div>
         <div className=" d-none d-xs-block d-lg-none d-xl-none">
