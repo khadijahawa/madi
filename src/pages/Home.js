@@ -138,7 +138,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div class=" m-2 pl-3 mt-4">
+      <div className=" m-2 pl-3 mt-4">
         <Map />
       </div>
     </div>
